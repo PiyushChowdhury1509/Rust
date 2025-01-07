@@ -1,0 +1,44 @@
+# Compiled files and build artifacts
+/target/
+*.exe
+*.pdb
+
+# Debug log files
+*.log
+
+# Files created by Cargo
+**/*.rs.bk
+**/*.rs.bak
+Cargo.lock
+
+# If you're using IntelliJ Rust (CLion/IDEA)
+/.idea/
+*.iml
+
+# If you're using VSCode
+.vscode/
+
+# macOS generated files
+.DS_Store
+
+# Windows generated files
+Thumbs.db
+Desktop.ini
+
+# Linux generated files
+*~
+
+# Ignore node_modules if your Rust project uses Node.js (e.g., for a frontend)
+node_modules/
+
+# Ignore by-products of code coverage tools
+coverage/
+
+# Rust build cache
+.cargo/
+
+# Ignore generated documentation
+/target/doc/
+
+# Ignore build scripts output
+/build.rs.bk
